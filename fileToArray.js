@@ -1,6 +1,5 @@
 /*
-  Reads grass file and creates a numerical 1D array with data.
-  ROWS AND COLS must be global vars.
+  Reads file in simple 2d format and creates a numerical 1D array with data.
 
   The array is an argument to the callback function
 
