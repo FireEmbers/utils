@@ -4,10 +4,9 @@
   The array is an argument to the callback function
 
 */
+var fs = require('fs');
 
 module.exports = function (fileName, ROWS, COLS, cb) {
-
-  var fs = require('fs');
 
   fs.readFile (fileName, {encoding: 'utf8'}, 'r' ,onFileRead);
 

@@ -1,6 +1,5 @@
 exports.createDataUnits = require('./src/createDataUnits');
 exports.fileToArray = require('./src/fileToArray');
-exports.fileToJSON = require('./src/fileToJSON');
 exports.grassToArray = require('./src/grassToArray');
 exports.parseArray = require('./src/parseArray');
 exports.readFile = require('./src/readFile');

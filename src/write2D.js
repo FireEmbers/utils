@@ -1,9 +1,11 @@
 //Print map in 2d matrix, doesn't fuck with the data
 //no headers
 
+var fs = require('fs');
+var util = require('util');
+
 module.exports = function (data, rows, cols, filename) {
-  var fs = require('fs');
-  var util = require('util');
+
 
   var options = {
     flags: 'w',
