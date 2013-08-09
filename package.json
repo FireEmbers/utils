@@ -1,0 +1,21 @@
+{
+  "name": "utils",
+  "version": "0.0.0",
+  "description": "A bunch of Embers specific modules ",
+  "main": "index.js",
+  "dependencies": {
+    "box-muller": "~0.0.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/FireEmbers/utils.git"
+  },
+  "author": "Flávio Sousa",
+  "license": "MIT",
+  "readmeFilename": "Readme.md",
+  "gitHead": "5309543a8e8a21d2b201cc0057d27d8403b3b949"
+}

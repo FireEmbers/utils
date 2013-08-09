@@ -1,7 +1,7 @@
 //Print map in 2d matrix, doesn't fuck with the data
 //no headers
 
-module.exports = function print2D(data, rows, cols, filename) {
+module.exports = function (data, rows, cols, filename) {
   var fs = require('fs');
   var util = require('util');
 
