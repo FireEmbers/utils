@@ -1,5 +1,5 @@
 {
-  "name": "utils",
+  "name": "embersutils",
   "version": "0.0.0",
   "description": "A bunch of Embers specific modules ",
   "main": "index.js",
