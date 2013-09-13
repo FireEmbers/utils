@@ -9,6 +9,8 @@ Returns an array where each element is an array of variables:
 
 */
 
+var boxmuller = require('box-muller');
+
 module.exports = function( runs, moisture, u, windDir){
 
     var i;
@@ -32,8 +34,6 @@ module.exports = function( runs, moisture, u, windDir){
 };
 
 function gauss(avg, sDev) {
-
-  var boxmuller = require('box-muller');
 
   //zero mean, unit variance
   var sample = boxmuller()
